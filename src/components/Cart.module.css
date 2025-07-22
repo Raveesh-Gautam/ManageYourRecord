@@ -1,0 +1,100 @@
+
+.input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus {
+  border-color: black;
+  outline: none;
+}
+
+.input_label {
+  display: block;
+  font-weight: 600;
+  margin: 8px 0 4px;
+  color: #333;
+}
+
+.addbtn {
+  color: white;
+  background-color: black;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+  min-width: 100px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.addbtn:hover {
+  background-color: #333;
+}
+
+.add_close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.passwordList {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); 
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  background-color: black;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #444;
+
+}
+
+.add_close {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.addbtn {
+  background-color: black;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.addbtn:hover {
+  background-color: #0056b3;
+}
